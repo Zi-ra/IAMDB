@@ -41,6 +41,9 @@
         color: var(--primary-text-color);
         outline: none;
     }
+    input::placeholder{
+            opacity: 30%;
+    }
     button{
         flex: 0 2 17%;
         justify-content: space-between;
@@ -55,5 +58,28 @@
     }
     button:hover{
         background-color: #8E0D0D;
+    }
+    @media only screen and (max-width: 767px){
+        div{
+            padding: 0 15px;
+        }
+        h1{
+            align-self: center;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56.25px;
+        }
+        .input-holder{
+            flex-direction: column;
+            margin-top: 32px;
+        }
+        input,button{
+            flex:none;
+            width: 100%;
+        }
+        button{
+            margin: 12px 0 0;
+            justify-content: center;
+        }
     }
 </style>
