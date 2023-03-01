@@ -1,6 +1,7 @@
 <script setup>
     import '../assets/style.css';
     import env from '../env.js';
+    import LocalDB from '../assets/js/LocalDB.js'
     import SearchIcon from './icons/SearchIcon.vue';
 </script>
 
