@@ -10,7 +10,7 @@
             <input type="text" placeholder="Type the name of your favorite movie ...">
             <button class="d-flex text-capitalize">
                 search
-                <SearchIcon/>
+                <SearchIcon class="icon"/>
             </button>
         </div>
     </div>
@@ -77,9 +77,17 @@
             flex:none;
             width: 100%;
         }
+        input{
+            padding: 12px 32px;
+        }
         button{
+            padding: 12px 24px;
             margin: 12px 0 0;
             justify-content: center;
+        }
+        .icon{
+            width: 18px;
+            margin-left: 12px;
         }
     }
 </style>
