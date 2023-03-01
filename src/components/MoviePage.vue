@@ -1,5 +1,9 @@
 <script setup>
     import '../assets/style.css';
+    import MovieInfo from './MovieInfo.vue';
+    import MoviePhotos from './MoviePhotos.vue';
+    import MovieSimilar from './MovieSimilar.vue';
+    import MovieFaqs from './MovieFaqs.vue';
 </script>
 
 <template>
@@ -7,7 +11,7 @@
         <div class="movie-bg-img-holder"></div>
         <MovieInfo/>
         <MoviePhotos/>
-        <movieSimilar/>
+        <MovieSimilar/>
         <MovieFaqs/>
     </div>
 </template>
