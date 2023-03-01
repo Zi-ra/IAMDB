@@ -1,23 +1,24 @@
 <script setup>
     import '../assets/style.css';
+    import env from '../env.js';
     import SearchIcon from './icons/SearchIcon.vue';
 </script>
 
 <template>
     <div class="d-flex col center w-100">
         <h1>IAMDB</h1>
-        <div class="input-holder d-flex w-100">
-            <input type="text" placeholder="Type the name of your favorite movie ...">
-            <button class="d-flex text-capitalize">
+        <form class="input-holder d-flex w-100">
+            <input type="text" placeholder="Type the name of your favorite movie ..." v-model="searchMovie">
+            <button type="submit" class="d-flex text-capitalize" >
                 search
                 <SearchIcon class="icon"/>
             </button>
-        </div>
+        </form>
     </div>
 </template>
 
 <style scoped>
-    div{
+    div,form{
         padding: 0 120px;
         justify-content: center;
         align-items: center;
@@ -60,7 +61,7 @@
         background-color: #8E0D0D;
     }
     @media only screen and (max-width: 767px){
-        div{
+        div,form{
             padding: 0 15px;
         }
         h1{
