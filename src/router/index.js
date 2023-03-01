@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../components/HomePage.vue'
-import ErrorPage from '../components/ErrorPage.vue'
+import HomePage from '../components/HomePage.vue';
+import ErrorPage from '../components/ErrorPage.vue';
+import MoviePage from '../components/MoviePage.vue';
 
 const routes = [
     {
@@ -13,6 +14,11 @@ const routes = [
         name: 'Error',
         component: ErrorPage
     },
+    {
+        path: '/movie/:id',
+        name: 'Movie Detail',
+        component : MoviePage
+    }
 ]
 
 const router = createRouter({
