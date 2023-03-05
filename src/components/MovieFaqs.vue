@@ -44,7 +44,7 @@
         color: rgba(238, 235, 221, 0.6);
         border-left: 4px solid var(--accent-color);
     }
-    @media screen {
+    @media only screen and (max-width: 767px) {
         .faqs-qn{
             font-size: 18px;
             line-height: 21px;

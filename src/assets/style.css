@@ -368,101 +368,6 @@ body{
     width: 25.01%;
 }
 
-/* -----Movie Photos----- */
-
-.movie-photos-title{
-    margin-top: 62px;
-}
-.movie-photos-list{
-    margin: 0 -12px;
-    padding: 0;
-}
-.movie-photos-list li{
-    padding: 0;
-    margin: 0;
-    flex: 0 0 20%;
-}
-.photo-items-holder{
-    width: 100%;
-    position: relative;
-    padding:12px;
-    margin: 0;
-}
-.photos-img{
-    aspect-ratio: 3/2;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: calc(var(--border-radius-value)*4);
-}
-.photo-items-holder:hover .photos-img{
-    opacity: 0.71;
-}
-.icon-overlay{
-    width: 13.08%;
-    position: absolute;
-    top: 40%;
-    left: 44%;
-    opacity: 0;
-}
-.photo-items-holder:hover .icon-overlay{
-    opacity: 1;
-}
-.photos-modal{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-    visibility: hidden !important;
-    opacity: 0;
-    pointer-events: none;
-    transition: all calc(0.6s);
-}  
-.photos-modal:target {
-      visibility: visible !important;
-      opacity: 1;
-      pointer-events: auto;
-}
-.modal-img-holder{
-    display: flex;
-    width: 65%;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 40px;
-    margin: 0;
-    background-color: rgba(238, 235, 221, 0.1);
-}
-.modal-img{
-    width: 100%;
-    object-fit: contain;
-}
-.modal-close{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: fit-content;
-    color: var(--secondary-text-color);
-    opacity: 0.4;
-    font-size: 85%;
-    font-weight: 700;
-    line-height: 50px;
-    text-align: center;
-    margin: -0.5% 0;
-    padding: 0 2%;
-    text-decoration: none;
-    transition: all calc(0.5s);
-}
-.modal-close:hover {
-    color: black;
-}
-
-
 /* -----Movie Similar----- */
 
 .movie-similar-title{
@@ -721,25 +626,7 @@ body{
     .cast-btn-img{
         width: 25%;
     }
-
-/* -----Mobile Photos----- */
-
-    .movie-photos-list{
-        margin: 0 -6px;
-    }
-    .movie-photos-list li{
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-        flex: 0 0 50%;
-    }
-    .photo-items-holder{
-        padding: 6px;
-    }
-    .modal-img-holder{
-        width: 100%;
-    }
-
+    
 /* -----Mobile Similar----- */
 
     .movie-similar{
