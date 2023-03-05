@@ -24,6 +24,9 @@
         justify-content: center;
         align-items: center;
     }
+    div{
+        margin-top: 40px;
+    }
     h1{
         margin-bottom: 120px;
         align-self: flex-end;
@@ -35,7 +38,7 @@
         padding: 0;
     }
     input{
-        flex: 2 0 83%;
+        flex: 2 0 86%;
         padding: 18px 32px;
         border-radius: 100px;
         border: 1px solid #EEEBDD;
@@ -44,11 +47,11 @@
         outline: none;
     }
     input::placeholder{
-            opacity: 30%;
+        opacity: 30%;
     }
     button{
-        flex: 0 2 17%;
-        justify-content: space-between;
+        flex: 0 2 14%;
+        justify-content: center;
         padding: 18px 32px;
         margin-left: 12px;
         border-radius: 100px;
@@ -60,6 +63,10 @@
     }
     button:hover{
         background-color: #8E0D0D;
+    }
+    .icon{
+        padding: 0;
+        margin-left: 12px;
     }
     @media only screen and (max-width: 767px){
         div,form{
@@ -85,11 +92,9 @@
         button{
             padding: 12px 24px;
             margin: 12px 0 0;
-            justify-content: center;
         }
         .icon{
             width: 18px;
-            margin-left: 12px;
         }
     }
 </style>
