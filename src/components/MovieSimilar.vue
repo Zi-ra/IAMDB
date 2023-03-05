@@ -1,5 +1,5 @@
 <script setup>
-    import '../assets/style.css';
+    import '../assets/style/css/style.css'
     import StarIcon from './icons/StarIcon.vue';
     import HeartIcon from './icons/HeartIcon.vue';
 </script>

@@ -1,5 +1,5 @@
 <script setup>
-    import '../assets/style.css';
+    import '../assets/style/css/style.css';
     import ToRightIcon from './icons/ToRightIcon.vue';
 </script>
 

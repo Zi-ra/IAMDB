@@ -4,7 +4,7 @@ import App from './App.vue'
 
 import router from './router'
 
-import './assets/style.css'
+import './assets/style/css/style.css'
 import './index.css'
 
 const pinia = createPinia();

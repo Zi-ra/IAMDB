@@ -1,5 +1,5 @@
 <script setup>
-    import '../assets/style.css';
+    import '../assets/style/css/style.css'
     import CloseIcon from '../components/icons/CloseIcon.vue'
 </script>
 <template>

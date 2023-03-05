@@ -1,7 +1,7 @@
 <script setup>
-    import '../assets/style.css';
+    import '../assets/style/css/style.css';
     import env from '../env.js';
-    import LocalDB from '../assets/js/LocalDB.js'
+    import LocalDB from '../assets/style/js/LocalDB.js'
     import SearchIcon from './icons/SearchIcon.vue';
 </script>
 
@@ -71,6 +71,7 @@
     @media only screen and (max-width: 767px){
         div,form{
             padding: 0 15px;
+            margin: 0;
         }
         h1{
             align-self: center;

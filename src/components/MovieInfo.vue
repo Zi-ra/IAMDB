@@ -1,5 +1,5 @@
 <script setup>
-    import '../assets/style.css';
+    import '../assets/style/css/style.css'
     import InfoCast from '../components/InfoCast.vue'
     import HeartIcon from './icons/HeartIcon.vue';
     import PlayIcon from './icons/PlayIcon.vue';
