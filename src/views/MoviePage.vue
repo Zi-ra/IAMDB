@@ -1,9 +1,9 @@
 <script setup>
     import '../assets/style/css/style.css'
-    import MovieInfo from './MovieInfo.vue';
-    import MoviePhotos from './MoviePhotos.vue';
-    import MovieSimilar from './MovieSimilar.vue';
-    import MovieFaqs from './MovieFaqs.vue';
+    import MovieInfo from '../components/MovieInfo.vue';
+    import MoviePhotos from '../components/MoviePhotos.vue';
+    import MovieSimilar from '../components/MovieSimilar.vue';
+    import MovieFaqs from '../components/MovieFaqs.vue';
 </script>
 
 <template>

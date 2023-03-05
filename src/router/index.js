@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../components/HomePage.vue';
-import ErrorPage from '../components/ErrorPage.vue';
-import MoviePage from '../components/MoviePage.vue';
+import HomePage from '../views/HomePage.vue';
+import ErrorPage from '../views/ErrorPage.vue';
+import MoviePage from '../views/MoviePage.vue';
 import PhotoModal from '../components/PhotoModal.vue'
 
 const routes = [

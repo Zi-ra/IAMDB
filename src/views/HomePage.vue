@@ -1,15 +1,21 @@
 <script setup>
     import '../assets/style/css/style.css';
-    import env from '../env.js';
-    import LocalDB from '../assets/style/js/LocalDB.js'
-    import SearchIcon from './icons/SearchIcon.vue';
+    import SearchIcon from '../components/icons/SearchIcon.vue';
+    import { onMounted, data } from 'vue';
+    import { useMoviesStore } from '../stores/Movies';
+
+    const moviesStore = useMoviesStore()
+    onMounted( () => {
+        moviesStore.getMovies()
+    });
+    
 </script>
 
 <template>
     <div class="d-flex col center w-100">
         <h1>IAMDB</h1>
         <form class="input-holder d-flex w-100">
-            <input type="text" placeholder="Type the name of your favorite movie ..." v-model="searchMovie">
+            <input type="text" placeholder="" v-model="getMovies">
             <button type="submit" class="d-flex text-capitalize" >
                 search
                 <SearchIcon class="icon"/>
