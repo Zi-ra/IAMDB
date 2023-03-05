@@ -1,7 +1,7 @@
 <script setup>
     import '../assets/style.css';
     import StarIcon from './icons/StarIcon.vue';
-    import HearthIcon from './icons/HearthIcon.vue';
+    import HeartIcon from './icons/HeartIcon.vue';
 </script>
 
 <template>
@@ -19,7 +19,7 @@
                                 <h3 class="similar-name col"></h3>
                                 <div class="similar-rating d-inline-flex">
                                     <StarIcon class="similar-icon"/>
-                                    <HearthIcon class="similar-icon"/>
+                                    <HeartIcon class="similar-icon"/>
                                     <span>?????</span>
                                 </div>
                             </div>  
